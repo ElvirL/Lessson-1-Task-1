@@ -24,11 +24,11 @@ int main(){
     string temp_word;
 
     while (!words.eof()){
+       
         words >> temp_word;
         if (temp_word == serach_word){
             ++count_serach_word;
         }
-        cout << temp_word << endl;
     }
     words.close();
 
